@@ -151,7 +151,7 @@ function slugify( $string, $separator = '-' ) {
                                     <div class="col-md-4">
                                         <div class="post-media">
                                             <a href="<?php echo base_url('rechauffement-climatique/Home') ?>" title="">
-                                                <img src="<?php echo base_url('assets/images/images-'.$item->idcontent.'.jpeg'); ?>" alt="" class="img-fluid">
+                                                <img src="<?php echo base_url('assets/images/images-'.$item->IdContent.'.jpeg'); ?>" alt="" class="img-fluid">
                                                 <div class="hovereffect"></div>
                                             </a>
                                         </div><!-- end media -->
@@ -160,11 +160,11 @@ function slugify( $string, $separator = '-' ) {
                                     <div class="blog-meta big-meta col-md-8">
                                         <span class="bg-aqua"><a href="garden-category.html" title="">Indoor</a></span>
                                         <?php $titleSlug = slugify($item->title,'-'); ?>
-                                        <h4><a href="<?php echo base_url('rechauffement-climatique/'.$titleSlug.'/articles/'.$item->idcontent.'') ?>" title=""><?php echo $item->title; ?></a></h4>
+                                        <h4><a href="<?php echo base_url('rechauffement-climatique/'.$titleSlug.'/articles/'.$item->IdContent.'') ?>" title=""><?php echo $item->Title; ?></a></h4>
                                         <p><?php echo $item->description; ?></p>
-                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i><?php echo $item->idcontent; ?></a></small>
-                                        <small><a href="garden-single.html" title=""><?php echo $item->datepublication; ?></a></small>
-                                        <small><a href="#" title="">by <?php echo $item->auteur; ?></a></small>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i><?php echo $item->IdContent; ?></a></small>
+                                        <small><a href="garden-single.html" title=""><?php echo $item->DatePublication; ?></a></small>
+                                        <small><a href="#" title="">by <?php echo $item->Auteur; ?></a></small>
                                     </div><!-- end meta -->
                                 </div><!-- end blog-box -->
 

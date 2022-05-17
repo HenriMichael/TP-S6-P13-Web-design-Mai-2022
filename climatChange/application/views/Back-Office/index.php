@@ -427,14 +427,14 @@ $(document).ready(function(){
                 <label for="checkbox1"></label>
               </span>
             </td>
-            <td><?php echo $item->title; ?></td>
-            <td><?php echo $item->description; ?></td>
-            <td><?php echo $item->content; ?></td>
-            <td><?php echo $item->auteur; ?></td>
-            <td><?php echo $item->datepublication; ?></td>
+            <td><?php echo $item->Title; ?></td>
+            <td><?php echo $item->Description; ?></td>
+            <td><?php echo $item->Content; ?></td>
+            <td><?php echo $item->Auteur; ?></td>
+            <td><?php echo $item->DatePublication; ?></td>
             <td>
-              <a href="<?php echo base_url('rechauffement-climatique/edit/'.$item->idcontent) ?>" >Edit</a>
-              <a href="<?php echo base_url('rechauffement-climatique/delete/'.$item->idcontent) ?>" >delete</a>
+              <a href="<?php echo base_url('rechauffement-climatique/edit/'.$item->IdContent) ?>" >Edit</a>
+              <a href="<?php echo base_url('rechauffement-climatique/delete/'.$item->IdContent) ?>" >delete</a>
             </td>
           </tr>
         <?php } ?>

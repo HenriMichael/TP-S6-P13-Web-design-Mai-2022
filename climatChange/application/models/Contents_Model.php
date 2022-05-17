@@ -20,12 +20,12 @@ class Contents_Model extends CI_Model{
     public function insert_item()
     {    
         $data = array(
-            'title' => $this->input->post('Title'),
-            'content' => $this->input->post('Content'),
-            'idcontent' => $this->input->post('IdContent'),
-            'description' => $this->input->post('Description'),
-            'auteur' => $this->input->post('Auteur'),
-            'datepublication' => $this->input->post('DatePublication')
+            'Iitle' => $this->input->post('Title'),
+            'Content' => $this->input->post('Content'),
+            'IdContent' => $this->input->post('IdContent'),
+            'Description' => $this->input->post('Description'),
+            'Auteur' => $this->input->post('Auteur'),
+            'DatePublication' => $this->input->post('DatePublication')
         );
         return $this->db->insert('inside', $data);
     }
@@ -34,12 +34,12 @@ class Contents_Model extends CI_Model{
     public function update_item($id) 
     {
         $data=array(
-            'title' => $this->input->post('Title'),
-            'content' => $this->input->post('Content'),
-            'idcontent' => $this->input->post('IdContent'),
-            'description' => $this->input->post('Description'),
-            'auteur' => $this->input->post('Auteur'),
-            'datepublication' => $this->input->post('DatePublication')
+            'Title' => $this->input->post('Title'),
+            'Content' => $this->input->post('Content'),
+            'IdContent' => $this->input->post('IdContent'),
+            'Description' => $this->input->post('Description'),
+            'Auteur' => $this->input->post('Auteur'),
+            'DatePublication' => $this->input->post('DatePublication')
         );
         if($id==0){
             return $this->db->insert('inside',$data);
@@ -52,13 +52,13 @@ class Contents_Model extends CI_Model{
 
     public function find_item($id)
     {
-        return $this->db->get_where('inside', array('idcontent' => $id))->row();
+        return $this->db->get_where('inside', array('IdContent' => $id))->row();
     }
 
 
     public function delete_item($id)
     {
-        return $this->db->delete('inside', array('idcontent' => $id));
+        return $this->db->delete('inside', array('IdContent' => $id));
     }
 }
 ?>

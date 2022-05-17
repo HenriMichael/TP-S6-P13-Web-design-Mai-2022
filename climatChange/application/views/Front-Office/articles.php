@@ -123,7 +123,7 @@
                     <div class="col-lg-10 offset-lg-1">
                         <div class="page-wrapper">
                             <div class="row">
-                            <img src="<?php echo base_url('assets/images/images-'.$item->idcontent.'.jpeg'); ?>" alt="" class="img-fluid">
+                            <img src="<?php echo base_url('assets/images/images-'.$item->IdContent.'.jpeg'); ?>" alt="" class="img-fluid">
                             <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <h1><?php echo $item->title; ?></h1>   
@@ -131,23 +131,23 @@
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <h5><?php echo $item->description; ?></h5>           
+            <h5><?php echo $item->Description; ?></h5>           
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <p><?php echo $item->content; ?></p>      
+            <p><?php echo $item->Content; ?></p>      
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <h6><?php echo $item->auteur; ?></h6>
+            <h6><?php echo $item->Auteur; ?></h6>
             
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <h6><?php echo $item->datepublication; ?></h6>
+            <h6><?php echo $item->DatePublication; ?></h6>
            
         </div>
     </div>

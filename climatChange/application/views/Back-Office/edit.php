@@ -402,7 +402,7 @@ $(document).ready(function(){
 </div>
 
 
-<form method="post" action="<?php echo base_url('rechauffement-climatiques/update/'.$item->idcontent);?>">
+<form method="post" action="<?php echo base_url('rechauffement-climatiques/update/'.$item->IdContent);?>">
     <?php
 
 
@@ -420,37 +420,37 @@ $(document).ready(function(){
     <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>ID Title:</strong>
-                <input type="text" name="IdContent" class="form-control" value="<?php echo $item->idcontent; ?>">
+                <input type="text" name="IdContent" class="form-control" value="<?php echo $item->IdContent; ?>">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Title:</strong>
-                <input type="text" name="Title" class="form-control" value="<?php echo $item->title; ?>">
+                <input type="text" name="Title" class="form-control" value="<?php echo $item->Title; ?>">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Description:</strong>
-                <textarea name="Description" class="form-control"><?php echo $item->description; ?></textarea>
+                <textarea name="Description" class="form-control"><?php echo $item->Description; ?></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Content:</strong>
-                <textarea name="Content" class="form-control"><?php echo $item->content; ?></textarea>
+                <textarea name="Content" class="form-control"><?php echo $item->Content; ?></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Auteur:</strong>
-                <textarea name="Auteur" class="form-control"><?php echo $item->auteur; ?></textarea>
+                <textarea name="Auteur" class="form-control"><?php echo $item->Auteur; ?></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Date de sortie:</strong>
-                <textarea name="DatePublication" class="form-control"><?php echo $item->datepublication; ?></textarea>
+                <textarea name="DatePublication" class="form-control"><?php echo $item->DatePublication; ?></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

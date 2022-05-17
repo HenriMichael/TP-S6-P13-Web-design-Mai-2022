@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'postgres',
-	'password' => 'postgres',
+	'hostname' => 'sql208.epizy.com',
+	'username' => 'epiz_31747075',
+	'password' => 'OA3UL2iNCTNPrJ',
 	'database' => 'climatChanges',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
